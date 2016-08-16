@@ -1,0 +1,165 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*login/logout form*/
+
+.login-form-container {
+  background-color: white;
+  border: solid black 1px;
+  height: 450px;
+  width: 450px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.login-form-box {
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 32px;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.login-input {
+  height: 64px;
+  width: 363px;
+  margin: 5px;
+  border-radius: 5px;
+  border: solid lightgrey 1px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  padding-left: 10px;
+}
+
+.login-form-submit {
+  height: 64px;
+  width: 375px;
+  margin: 5px;
+  border-color: #ff5a5f;
+  border-bottom-color: #e00007;
+  background-color: #ff5a5f;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.login-form-navLink {
+  border: 1px solid #ff5a5f;
+  color: #ff5a5f;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  margin: 6px;
+}
+
+.login-form-text {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: left;
+  display: inline-block;
+  line-height: 34px;
+  font-size: 16px;
+  color: #484848;
+  width: 250px;
+  margin: 6px;
+}
+
+/*drop down*/
+
+
+.drop-down-menu {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  margin: 6px;
+  margin-top: 11px;
+  position: fixed;
+  top: 40px;
+  right: 0%;
+  z-index: 15;
+  width: 100px;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  text-indent: 0px;
+  transition: text-indent .5s;
+}
+
+.drop-down-menu-item-1 {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  margin: 6px;
+  margin-top: 11px;
+  position: fixed;
+  top: 40px;
+  right: 0%;
+  z-index: 15;
+  width: 100px;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  text-indent: 0px;
+  transition: text-indent .5s;
+}
+
+.drop-down-menu-item-1:hover {
+  text-indent: 26px;
+}
+
+.drop-down-menu-item-2 {
+  border: 1px solid grey;
+  background-color: white;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 12px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  float: right;
+  margin: 6px;
+  margin-top: 11px;
+  position: fixed;
+  top: 75px;
+  right: 0%;
+  z-index: 15;
+  width: 100px;
+  margin-right: 30px;
+  color: black;
+  text-align: center;
+  text-indent: 0px;
+  transition: text-indent .5s;
+}
+
+.drop-down-menu-item-2:hover {
+  text-indent: 30px;
+}
+
+/*modal*/
+.modal {
+  position: fixed;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+  bottom: 30%;
+  z-index: 15;
+  width: 452px;
+  height: 452px;
+}

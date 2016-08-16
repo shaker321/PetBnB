@@ -1,0 +1,208 @@
+// Place all the styles related to the Locations controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*Locations Index -- Main Page*/
+.location-index {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  width: 70%;
+  left: 15%;
+  background-color: white;
+}
+
+.location-index-item-New {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("NYC.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Boston {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("Boston.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Los {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("LA.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-San {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("SF.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Seattle {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("Seattle.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Berlin {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("Berlin.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Hong {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("HK.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-Paris {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("Paris.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.location-index-item-London {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 28px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: white;
+  background-image: asset-url("London.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+// Search locations bar
+.search-locations-bar {
+  height: 20px;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 35%;
+  margin: 10px 0px;
+  padding-left: 5px;
+  float: left;
+  font-size: 14px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.magnifying-glass {
+  height: 5px;
+  font-size: 16px;
+  padding: 10px 0px;
+  width: 10px;
+  margin: 10px;
+  margin-top: 17px;
+  margin-right: 0px;
+  padding-left: 15px;
+  float: left;
+  justify-content: center;
+  background-image: asset-url("magnifying-glass.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

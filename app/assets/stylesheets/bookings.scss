@@ -1,0 +1,201 @@
+// Place all the styles related to the Bookings controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+// booking form
+
+.booking-form {
+  float: right;
+  position: absolute;
+  top: 621px;
+  right: 5%;
+  border: 1px solid rgba(60,63,64,0.9);
+  width: 350px;
+}
+
+.booking-price-label-container {
+  background-color: rgba(60,63,64,0.9);
+  border: 0;
+  color: #fff;
+  padding: 6px 20px;
+  text-transform: capitalize;
+  z-index: 1001;
+  overflow-y: hidden;
+  border-bottom: 1px rgba(60,63,64,0.9);
+  font-weight: normal;
+  margin: 0;
+}
+
+.booking-price-label-dollars {
+  float: left;
+  font-size: 24px;
+}
+
+.booking-price-label-per-day {
+  float: right;
+  font-size: 14px;
+  margin-top: 7px;
+}
+
+.booking-form-white {
+  background-color: white;
+}
+
+.booking-form-start {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 115px;
+}
+
+.booking-form-end {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+  -webkit-font-smoothing: antialiased;
+}
+
+.booking-form-date-start {
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  width: 150px;
+  padding: 0px;
+  margin-right: 15px;
+}
+
+.booking-form-date-end {
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  width: 150px;
+  padding: 0px;
+}
+
+.booking-form-submit {
+  height: 42px;
+  width: 273px;
+  margin: 5px;
+  border-color: #ff5a5f;
+  border-bottom-color: #e00007;
+  background-color: #ff5a5f;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.booking-form-submit:disabled {
+  height: 42px;
+  width: 273px;
+  margin: 5px;
+  border-color: #ff5a5f;
+  border-bottom-color: #e00007;
+  background-color: #ff5a5f;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  color: white;
+  background-color: grey;
+}
+
+.booking-form-errors {
+  background-color: white;
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+.booking-form-errors ul {
+  background-color: white;
+  padding: 0px;
+  margin: 5px auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+// Booking Index Items
+
+.pet-profile-booking-container {
+  float: left;
+  position: absolute;
+  top: 621px;
+  left: 5%;
+  width: 350px;
+  background-color: rgba(60,63,64,0.9);
+  color: #fff;
+  padding: 0px;
+  text-transform: capitalize;
+  z-index: 0;
+  overflow-y: hidden;
+  font-weight: normal;
+  border: 1px rgba(60,63,64,0.9) solid;
+}
+
+.pet-profile-booking-title {
+  font-size: 24px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.pet-profile-booking-start {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+  -webkit-font-smoothing: antialiased;
+  margin-right: 115px;
+  text-decoration: underline;
+}
+
+.pet-profile-booking-end {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  color: #484848;
+  -webkit-font-smoothing: antialiased;
+  text-decoration: underline;
+}
+
+.pet-profile-booking-white {
+  background-color: white;
+  padding-top: 10px;
+}
+
+.pet-profile-booking-index {
+  margin: 0px;
+  padding: 0px;
+}
+
+.booking-index-item {
+  margin: 0px;
+  padding: 0px;
+  color: black;
+}
+
+.booking-index-item-start {
+  margin: 7px;
+  padding-right: 85px;
+  display: inline-block;
+}
+
+.booking-index-item-end {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+}
+
+.booking-index-item:nth-child(2n-1) {
+  background-color: #ff7474;
+  color: white;
+}

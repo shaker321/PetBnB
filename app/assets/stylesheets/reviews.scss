@@ -1,0 +1,82 @@
+// Place all the styles related to the Reviews controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+//reviews
+
+.pet-review-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 20%;
+}
+
+.review-form-submit {
+  border: 1px solid #ff5a5f;
+  color: #ff5a5f;
+  width: 25%;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.review-form-submit:disabled {
+  border: 1px solid black;
+  color: white;
+  width: 25%;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 30px;
+  background-color: grey;
+}
+
+.review-form-body {
+  margin: 10px;
+  padding: 10px;
+  font-size: 14px;
+  width: 440px;
+  height: 134px;
+}
+
+.review-form-label {
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
+
+.review-index-item {
+  margin: 10px auto;
+  padding: 0;
+  width: 700px;
+}
+
+.review-index-item-rating {
+  margin: 5px;
+}
+
+.review-index-item-body {
+  font-size: 14px;
+  word-break: wrap;
+  white-space: normal;
+}
+
+ul:nth-child(2n-1) {
+  background-color: #ff7474;
+  color: white;
+}
+
+.review-form-rating {
+  border: 1px solid black;
+  margin-top: 10px;
+}
+
+.review-index-item:last-child{
+  border-bottom: 20px solid white;
+}

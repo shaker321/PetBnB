@@ -1,0 +1,360 @@
+// Place all the styles related to the Pets controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Pet Profile
+.pet-profile {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-align: center;
+  font-weight: normal;
+}
+
+.pet-profile-img {
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.pet-profile-item-container {
+  margin: 0 auto;
+  width: 80%;
+  background-color: white;
+}
+
+.pet-profile-name {
+  font-size: 36px;
+  margin: 0 auto;
+  width: 60%;
+}
+
+.pet-profile-prop {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px auto;
+  width: 20%;
+}
+
+.pet-profile-prop-resp {
+  font-size: 14;
+  font-weight: normal;
+  padding-bottom: 10px;
+  margin: 0px auto;
+  width: 50%
+}
+
+.pet-profile-border {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent, rgba(0,0,0,0.75), transparent);
+  margin: 0 auto;
+  width: 55%
+}
+
+
+//Pet creating form
+
+
+.pet-form-container {
+  background-image: asset-url("smiling-husky.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+.pet-form {
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  background: transparent;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 0px;
+  border-radius: 5px;
+}
+
+.pet-form-title {
+  font-size: 34px;
+  text-align: center;
+  padding: 30px 30px 0px 45px;
+  color: black;
+}
+
+.pet-form-name-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-species-container {
+  width: 52%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-age-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-breed-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-temperament-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-price-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-location-input {
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  padding-left: 15px;
+  margin-bottom: 15px;
+  background-color: white;
+}
+
+.pet-form-submit {
+  border: 1px solid #ff5a5f;
+  color: #ff5a5f;
+  width: 52%;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  text-align: center;
+  background-color: white;
+}
+
+.pet-form-submit:disabled {
+  border: 1px solid white;
+  color: white;
+  width: 52%;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  left: 25%;
+  text-align: center;
+  background-color: grey;
+}
+
+.pet-form-cancel {
+  border: 1px solid #ff5a5f;
+  color: #ff5a5f;
+  width: 10%;
+  border-radius: 5px;
+  height: 30px;
+  position: relative;
+  left: 45%;
+  margin-left: 0.7%;
+  margin-bottom: 300px;
+  text-align: center;
+  background-color: white;
+}
+
+.pet-form-img-container {
+  width: 52%;
+  border-radius: 5px;
+  border: 1px solid black;
+  height: 170px;
+  position: relative;
+  left: 25%;
+  margin-bottom: 15px;
+  background-color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.pet-form-img {
+  padding-top: 10px;
+  padding-left: 5px;
+  justify-content: center;
+  text-align: center;
+  float: left;
+  width: 45%;
+}
+
+.pet-form-img-show {
+  padding: 2%;
+  height: 90%;
+  width: 45%;
+  border-radius: 5px;
+  justify-content: center;
+  float: right;
+}
+
+// Pet Index Page
+
+.pet-index-items-container {
+  width: 60%;
+  height: 100%;
+  overflow: scroll;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: white;
+}
+
+.pet-index-item {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  float: left;
+  border: 1px solid black;
+  font-size: 36px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #ff5a5f;
+  -webkit-text-stroke: 1.5px black;
+  position: relative;
+  background-color: white;
+}
+
+.pet-index-item-img {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  float: left;
+  position: absolute;
+}
+
+.pet-index-item-text {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  bottom: 5px;
+  left: 5px;
+  float: left;
+  position: absolute;
+}
+
+.pet-index-item-price {
+  width: 30px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  top: 5px;
+  left: 160px;
+  float: right;
+  position: absolute;
+  font-size: 18px;
+  color: white;
+  background-color: rgba(60,63,64,0.9);
+  overflow-y: hidden;
+  -webkit-text-stroke: 0px white;
+}
+
+.pet-index-item:hover {
+  opacity: 0.8;
+  box-shadow: 0 1px 8px blue;
+}
+
+.info-window-text {
+  text-align: center;
+}
+
+// Search Pet
+.search-page {
+  height: 100%;
+  background-color: white;
+}
+
+// filters
+
+.filter-form-container {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  background-color: #ff5a5f;
+  color: black;
+  font-size: 18px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.filter-form-min-label {
+
+}
+
+.filter-form-min {
+  border: 1px solid white;
+  width: 40px;
+  text-align: center;
+}
+
+.filter-form-max-label {
+  margin-left: 15px;
+}
+
+.filter-form-max {
+  border: 1px solid white;
+  width: 40px;
+  text-align: center;
+}
+
+.filter-form-species {
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 15px;
+}
