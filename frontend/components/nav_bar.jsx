@@ -35,6 +35,11 @@ const NavBar = React.createClass({
     this.toggle = this.openModalFromSignup;
   },
 
+  guestLogin(e) {
+    e.preventDefault();
+    SessionActions.logIn({username: "ilovepuppies@puppies.com", password: "i<3puppies"}, this.closeModal, this.dropDownOff);
+  },
+
   openModalFromSignup(e) {
     e.preventDefault();
     this.setState({modalOpen: true});
@@ -73,6 +78,14 @@ const NavBar = React.createClass({
           onClick={this.openModalFromSignup}
           key="signup-button"
           className="nav-bar-signup">Sign up!
+        </button>
+      );
+
+      buttons.push(
+        <button
+          onClick={this.guestLogin}
+          key="guest-login-button"
+          className="nav-bar-guest-login">Guest Login!
         </button>
       );
 
