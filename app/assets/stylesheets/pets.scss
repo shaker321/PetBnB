@@ -266,6 +266,7 @@
   -webkit-text-stroke: 1.5px black;
   position: relative;
   background-color: white;
+  overflow: hidden;
 }
 
 .pet-index-item-img {
@@ -277,6 +278,7 @@
   left: 0;
   float: left;
   position: absolute;
+  object-fit: cover;
 }
 
 .pet-index-item-text {
