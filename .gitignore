@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+app/assets/javascripts/bundle.js
+app/assets/javascripts/bundle.js.map
+tmp
+.byebug_history
+
+# Ignore application configuration
+/config/application.yml
