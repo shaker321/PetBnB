@@ -28,7 +28,28 @@ After logging in, users can post reviews, book pets, rent out their own pets, br
 
 Users can upload pictures of their pets along with relevant information. Once the form is completely filled in, the app enables a submit button so the world can adore users' pets as much as they do!
 
-When uploaded, every pet's home address is converting into precise latitude and longitude coordinates so he/she can be accurately placed on a google maps integrated map. The coordinates are later converted back to a street address in each pet's profile.
+When uploaded, every pet's home address is converting into precise latitude and longitude coordinates so he/she can be accurately placed on a google maps integrated map.
+
+```javascript
+const coords = {
+  lat: this.address.geometry.location.lat(),
+  lng: this.address.geometry.location.lng()
+};
+```
+
+The coordinates are later converted back to a street address in each pet's profile.
+
+```javascript
+_getAddress(lat, lng) {
+  let geocoder = new google.maps.Geocoder();
+  let latlng = new google.maps.LatLng(lat, lng);
+  let that = this;
+
+  geocoder.geocode({"latLng": latlng}, function(results, status) {
+    that.setState({address: results[0].formatted_address});
+  });
+}
+```
 
 ### Browsing Pets
 
@@ -42,7 +63,33 @@ The map is fully functional; markers disappear and reappear as the map moves, ea
 
 ![Reviews](docs/Reviews.png)
 
-Each Pet has a profile page that enables you to both post reviews and book the pet for a stay. Reviews are ordered by recency. The post a review button is disabled unless all required fields are filled in. Each rating (🐱 (1) - 🐱 🐶 🐱 🐶 🐱 (5) Tail Wags!) is averaged to give each pet an easily accessible score, but let's be honest all pets deserve a solid 🐱 🐶 🐱 🐶 🐱 Tail Wags!.
+Each Pet has a profile page that enables you to both post reviews and book the pet for a stay. Reviews are ordered by recency. The post a review button is disabled unless all required fields are filled in.
+
+```javascript
+if (SessionStore.isUserLoggedIn()) {
+  (function() {
+    $("form").on("keyup mousemove", function() {
+      let empty = false;
+
+      if ($("form > select").val() === null) {
+        empty = true;
+      }
+
+      if ($("form > textarea").val() === "") {
+        empty = true;
+      }
+
+      if (empty) {
+        $("#post").attr("disabled", "disabled");
+      } else {
+        $("#post").removeAttr("disabled");
+      }
+    });
+  })();
+}
+```
+
+Each rating (🐱 (1) - 🐱 🐶 🐱 🐶 🐱 (5) Tail Wags!) is averaged to give each pet an easily accessible score, but let's be honest all pets deserve a solid 🐱 🐶 🐱 🐶 🐱 Tail Wags!.
 
 ### Booking Pets
 
