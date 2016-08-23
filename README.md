@@ -55,9 +55,11 @@ _getAddress(lat, lng) {
 
 ![Pet Index](docs/PetIndex.png)
 
-Search is an essential component of PetBnb. With an autocomplete search bar always ready for a new address and a map itching to be moved, users can browse for pets until finally remember to feed their own pets.
+Search is an essential component of PetBnb. With an autocomplete search bar always ready for a new address and a map itching to be moved, users can browse for pets until they finally remember to feed their own pets.
 
 The map is fully functional; markers disappear and reappear as the map moves, each marker has an info-box that includes a pet's picture, name, and price per day (plus each info-box is a link that can take you directly to a pet's profile), the map (and index items) can be sorted by price and species, the search bar moves the map accurately and accordingly, and much more!
+
+PetBnb utilizes custom SQL queries to fetch only the pets that reside in the current map area and meet the filter criteria rather than every single pet in our database. This results in significant server optimization. 
 
 ### Posting Reviews
 
