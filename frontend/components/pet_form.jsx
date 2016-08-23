@@ -63,7 +63,7 @@ const PetForm = React.createClass({
   },
 
   handleCancel(e) {
-    e.prventDefault();
+    e.preventDefault();
     hashHistory.push("/");
   },
 
