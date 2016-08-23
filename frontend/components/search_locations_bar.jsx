@@ -8,12 +8,16 @@ const SearchLocationsBar = React.createClass({
 
   componentDidMount() {
     let input = document.getElementById("search-locations-bar");
+
+    input.value = "";
+
     this.autocomplete = new google.maps.places.Autocomplete(input);
     this.autocompleteListener = google.maps.event.addListener(this.autocomplete, "place_changed", this._handleSubmit);
   },
 
   componentWillUnmount() {
     this.autocompleteListener.remove();
+    this.componentDidMount();
   },
 
   _handleSubmit(e) {
@@ -30,6 +34,8 @@ const SearchLocationsBar = React.createClass({
       pathname: "/api/pets",
       query: coords
     });
+
+    this.componentWillUnmount();
   },
 
   render() {
