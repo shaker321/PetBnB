@@ -1,6 +1,6 @@
 # PetBnB
 
-[PetBnB live]: www.pet-bnb.us
+[PetBnB live](www.pet-bnb.us)
 
 PetBnB is a full-stack web application inspired by AirBnB.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Flux architectural framework on the frontend.
 
