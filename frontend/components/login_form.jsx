@@ -4,6 +4,7 @@ const SessionActions = require("../actions/session_actions.js");
 const SessionStore = require("../stores/session_store.js");
 const hashHistory = require("react-router").hashHistory;
 const ErrorStore = require("../stores/error_store");
+const ErrorActions = require("../actions/error_actions");
 
 const LoginForm = React.createClass({
   getInitialState() {
@@ -14,6 +15,7 @@ const LoginForm = React.createClass({
   },
 
   componentDidMount() {
+    ErrorActions.clearErrors();
     this.errorListener = ErrorStore.addListener(this.forceUpdate.bind(this));
     this.sessionListener = SessionStore.addListener(this.forceUpdate.bind(this));
   },
