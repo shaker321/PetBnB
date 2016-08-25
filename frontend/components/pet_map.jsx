@@ -89,7 +89,7 @@ const PetMap = React.createClass({
                   content:
                     `<a href='#/api/pets/${pets[marker.id].id}'>
                       <h3 class="info-window-text">${pets[marker.id].name}</h3>
-                      <img height="100px" width="100px" src="${pets[marker.id].image_url}">
+                      <img height="100px" width="100px" class="pet-map-image" src="${pets[marker.id].image_url}">
                       <h3 class="info-window-text">$${pets[marker.id].price} Per Day</h3>
                     </a>`
                 });

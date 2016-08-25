@@ -79,6 +79,5 @@ class Booking < ActiveRecord::Base
   def start_must_come_before_end
     return if start_date < end_date
     errors[:start_date] << "must come before end date"
-    errors[:end_date] << "must come after start date"
   end
 end

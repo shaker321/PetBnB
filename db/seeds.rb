@@ -433,12 +433,14 @@ reviews = [
 ]
 
 rating = [3, 4, 5]
-
 900.times do
+  user_id = user_ids.sample
+
   Review.create!(
     rating: rating.sample,
     body: reviews.sample,
     user_id: user_ids.sample,
+    username: User.find(user_id).username,
     pet_id: pet_ids.sample
   )
 end

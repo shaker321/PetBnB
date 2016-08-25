@@ -52,7 +52,8 @@ const PetProfile = React.createClass({
             reviewIndexItems.push(
               <ReviewIndexItem
                 rating={review.rating}
-                body={review.body}/>
+                body={review.body}
+                username={review.username}/>
             );
 
             numRatings++;

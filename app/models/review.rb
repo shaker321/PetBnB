@@ -9,6 +9,7 @@
 #  updated_at :datetime         not null
 #  user_id    :integer          not null
 #  pet_id     :integer          not null
+#  username   :string
 #
 
 class Review < ActiveRecord::Base
