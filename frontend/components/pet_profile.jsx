@@ -61,7 +61,7 @@ const PetProfile = React.createClass({
           }
       );
 
-      reviewIndexItems.reverse();
+      // reviewIndexItems.reverse();
     }
 
     let avgRating = Math.round(sumRatings / numRatings);

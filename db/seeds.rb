@@ -408,7 +408,7 @@ reviews = [
   "Excellent breed for anyone of any age to rent, very easy going and well-tempermented, not aggressive in any way.",
   "I've rented many pets, but to be frank this little sweetheart is amazingly intelligent. I never had a pet as smart as this one.",
   "The absolute best friend and companion!!! Well mannered with all, always eager to please. Enjoys playtime and quiet time too.",
-  "Two words - BEST DOG EVER!!",
+  "Two words - BEST PET EVER!!",
   "<3 <3 <3 <3 <3 <3 <3",
   "Rent this pet! You won't regret it!",
   "I wish this little guy was more into cuddling, but otherwise it was a great time!",

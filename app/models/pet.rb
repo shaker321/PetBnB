@@ -27,7 +27,7 @@ class Pet < ActiveRecord::Base
   validates_attachment_content_type :image, content_type: /\Aimage\/.*\Z/
 
   belongs_to :user
-  has_many :reviews
+  has_many :reviews, -> {order(created_at: :desc)}
   has_many :bookings
 
   def self.in_bounds(bounds)
