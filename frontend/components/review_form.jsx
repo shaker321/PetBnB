@@ -15,7 +15,8 @@ const ReviewForm = React.createClass({
         rating: this.state.rating,
         body: this.state.body,
         pet_id: this.props.petId,
-        user_id: SessionStore.currentUser().id
+        user_id: SessionStore.currentUser().id,
+        username: SessionStore.currentUser().username
       }
     });
 

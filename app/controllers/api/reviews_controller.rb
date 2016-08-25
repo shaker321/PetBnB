@@ -3,7 +3,7 @@ class Api::ReviewsController < ApplicationController
 
   def create
     @review = Review.new(review_params)
-    @review.username = User.find(review_params[:user_id])
+    @review.username = User.find(review_params[:user_id]).username
 
     if @review.save
       @pet = @review.pet
