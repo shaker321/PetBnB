@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.8'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
@@ -23,11 +23,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
-gem "paperclip", "~> 5.0.0.beta1"
-
 gem "figaro"
-
-gem "aws-sdk", ">= 2.0"
+gem "paperclip"
+gem "aws-sdk", "< 3.0"
 
 gem "faker"
 

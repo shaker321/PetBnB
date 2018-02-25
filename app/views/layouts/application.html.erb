@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>PetBnB</title>
-  <%= javascript_include_tag "https://maps.googleapis.com/maps/api/js?key=AIzaSyAiTZRE_wQrpJJKBCnYg2q_fyA-xa9RX-E&libraries=places" %>
+  <%= javascript_include_tag "#{Figaro.env.GOOGLE_API_KEY}" %>
   <%= favicon_link_tag 'favicon.png' %>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
