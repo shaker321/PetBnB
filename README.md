@@ -1,7 +1,5 @@
 # PetBnB
 
-[PetBnB live!](http://www.pet-bnb.us)
-
 PetBnB is a full-stack web application inspired by AirBnB.  It utilizes Ruby on Rails on the backend, a PostgreSQL database, and React.js with a Flux architectural framework on the frontend.
 
 The app is all about adorable dogs and cats (with my very own dog as the face of the app)! Users can rent pets from other users and/or rent out their own pets.
